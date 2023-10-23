@@ -18,16 +18,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var topView: UIView!
     @IBOutlet weak var userImageView: UIImageView!
     
-    //bottom
     
+    //custom View
     @IBOutlet weak var customView1: CustomView!
-    
     @IBOutlet weak var customView2: CustomView!
-    
     @IBOutlet weak var customView3: CustomView!
-    
     @IBOutlet weak var customView4: CustomView!
     
+    //bottom
     @IBOutlet weak var bottomView: UIView!
     
     @IBOutlet weak var bottomLabel: UILabel!
@@ -35,9 +33,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var upperBodyView: UIView!
     @IBOutlet weak var bottomBodyView: UIView!
     @IBOutlet weak var tapBottomView: UIView!
-    
-//    @IBOutlet weak var tapBottomView: UIView!
-    
+        
     //bottom tap
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,15 +43,12 @@ class ViewController: UIViewController {
         setupBottomText()
         setupTapBottomView()
         setupCustomView()
-        
-        
     }
     func setupTapBottomView() {
         tapBottomView.layer.cornerRadius = 15
     }
     private func setupCustomView() {
-        customView1.contenLabel.text = "test this one"
-        customView2.contenLabel.text = "second one"
+        customView1.contenLabel.text = "hello world"
     }
     func setupUserImageView() {
         userImageView.image = UIImage(named: "user")

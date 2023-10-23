@@ -25,12 +25,11 @@ class CustomView: UIView {
         self.commonInit()
     }
     private func commonInit() {
-        let bundle = Bundle.init(for: CustomView.self)
-        if let viewToAdd = bundle.loadNibNamed("CustomView.xib", owner: self, options: nil),
-            let contentView = viewToAdd.first as? UIView {
-            addSubview(contentView)
-            contentView.frame = self.bounds
-            contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        let bundle = Bundle(for: type(of: self))
+        if let nib = UINib(nibName: "CustomView", bundle: bundle).instantiate(withOwner: self, options: nil).first as? UIView {
+            nib.frame = bounds
+            nib.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+            addSubview(nib)
         }
     }
 }
