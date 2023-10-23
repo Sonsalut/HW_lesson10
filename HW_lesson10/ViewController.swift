@@ -19,6 +19,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var userImageView: UIImageView!
     
     //bottom
+    
+    @IBOutlet weak var customView1: CustomView!
+    
+    @IBOutlet weak var customView2: CustomView!
+    
+    @IBOutlet weak var customView3: CustomView!
+    
+    @IBOutlet weak var customView4: CustomView!
+    
     @IBOutlet weak var bottomView: UIView!
     
     @IBOutlet weak var bottomLabel: UILabel!
@@ -37,12 +46,17 @@ class ViewController: UIViewController {
         setupNameLabel()
         setupBottomText()
         setupTapBottomView()
+        setupCustomView()
+        
         
     }
     func setupTapBottomView() {
         tapBottomView.layer.cornerRadius = 15
     }
-    
+    private func setupCustomView() {
+        customView1.contenLabel.text = "test this one"
+        customView2.contenLabel.text = "second one"
+    }
     func setupUserImageView() {
         userImageView.image = UIImage(named: "user")
         userImageView.layer.cornerRadius = 10

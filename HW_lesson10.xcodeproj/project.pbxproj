@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D07352492AE640FB001A07BD /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D07352482AE640FB001A07BD /* CustomView.xib */; };
+		D073524B2AE64110001A07BD /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D073524A2AE64110001A07BD /* CustomView.swift */; };
 		D0DD31C52AE5991500F49130 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD31C42AE5991500F49130 /* AppDelegate.swift */; };
 		D0DD31C72AE5991500F49130 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD31C62AE5991500F49130 /* SceneDelegate.swift */; };
 		D0DD31C92AE5991500F49130 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0DD31C82AE5991500F49130 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D07352482AE640FB001A07BD /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		D073524A2AE64110001A07BD /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		D0DD31C12AE5991500F49130 /* HW_lesson10.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW_lesson10.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0DD31C42AE5991500F49130 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0DD31C62AE5991500F49130 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				D0DD31CD2AE5991600F49130 /* Assets.xcassets */,
 				D0DD31CF2AE5991600F49130 /* LaunchScreen.storyboard */,
 				D0DD31D22AE5991600F49130 /* Info.plist */,
+				D07352482AE640FB001A07BD /* CustomView.xib */,
+				D073524A2AE64110001A07BD /* CustomView.swift */,
 			);
 			path = HW_lesson10;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0DD31D12AE5991600F49130 /* LaunchScreen.storyboard in Resources */,
+				D07352492AE640FB001A07BD /* CustomView.xib in Resources */,
 				D0DD31CE2AE5991600F49130 /* Assets.xcassets in Resources */,
 				D0DD31CC2AE5991500F49130 /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0DD31C92AE5991500F49130 /* ViewController.swift in Sources */,
+				D073524B2AE64110001A07BD /* CustomView.swift in Sources */,
 				D0DD31C52AE5991500F49130 /* AppDelegate.swift in Sources */,
 				D0DD31C72AE5991500F49130 /* SceneDelegate.swift in Sources */,
 			);

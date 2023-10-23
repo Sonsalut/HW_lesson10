@@ -23,6 +23,40 @@
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qKR-MR-80D">
                                         <rect key="frame" x="-16" y="152" width="393" height="322"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9et-rm-Jv3" customClass="CustomView" customModule="HW_lesson10" customModuleProvider="target">
+                                                <rect key="frame" x="16" y="-7" width="360" height="75"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <bool key="isElement" value="YES"/>
+                                                </accessibility>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oL2-Vr-UjV" customClass="CustomView" customModule="HW_lesson10" customModuleProvider="target">
+                                                <rect key="frame" x="16" y="163" width="360" height="75"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <bool key="isElement" value="YES"/>
+                                                </accessibility>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D4K-9p-eaX" customClass="CustomView" customModule="HW_lesson10" customModuleProvider="target">
+                                                <rect key="frame" x="15.999999999999972" y="246.99999999999955" width="360" height="75"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <bool key="isElement" value="YES"/>
+                                                </accessibility>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jdJ-5f-xp3" customClass="CustomView" customModule="HW_lesson10" customModuleProvider="target">
+                                                <rect key="frame" x="16" y="74" width="360" height="75"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <bool key="isElement" value="YES"/>
+                                                </accessibility>
+                                            </view>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8uO-yT-wIP">
@@ -92,6 +126,10 @@
                         <outlet property="bottomBodyView" destination="8uO-yT-wIP" id="zNK-bX-JVQ"/>
                         <outlet property="bottomLabel" destination="w0L-0r-bio" id="hFb-kb-U6k"/>
                         <outlet property="bottomView" destination="f2G-SU-e9E" id="VVl-hG-edG"/>
+                        <outlet property="customView1" destination="9et-rm-Jv3" id="fzv-WL-ewE"/>
+                        <outlet property="customView2" destination="jdJ-5f-xp3" id="K2v-4m-y7g"/>
+                        <outlet property="customView3" destination="oL2-Vr-UjV" id="fsW-OH-45N"/>
+                        <outlet property="customView4" destination="D4K-9p-eaX" id="n2l-ic-eSI"/>
                         <outlet property="nameLabel" destination="CO9-dw-KIx" id="AFa-9L-Rjm"/>
                         <outlet property="tapBottomView" destination="1oA-bm-WJW" id="kss-o3-MU4"/>
                         <outlet property="titleLabel" destination="mEm-Hu-kTi" id="Hcd-fc-S8a"/>
@@ -109,6 +147,9 @@
     <resources>
         <image name="headphone" width="66" height="66"/>
         <image name="user" width="100" height="100"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
