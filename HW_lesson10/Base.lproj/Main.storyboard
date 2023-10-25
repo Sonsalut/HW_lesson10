@@ -25,7 +25,7 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9et-rm-Jv3" customClass="CustomView" customModule="HW_lesson10" customModuleProvider="target">
-                                                <rect key="frame" x="16" y="-7" width="360" height="75"/>
+                                                <rect key="frame" x="16" y="-5" width="360" height="75"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration">
@@ -49,7 +49,7 @@
                                                 </accessibility>
                                             </view>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jdJ-5f-xp3" customClass="CustomView" customModule="HW_lesson10" customModuleProvider="target">
-                                                <rect key="frame" x="16" y="74" width="360" height="75"/>
+                                                <rect key="frame" x="16" y="77" width="360" height="75"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration">
@@ -62,6 +62,32 @@
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8uO-yT-wIP">
                                         <rect key="frame" x="-25" y="475" width="402" height="227"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7x4-sA-q8q" customClass="CustomView" customModule="HW_lesson10" customModuleProvider="target">
+                                                <rect key="frame" x="25" y="6" width="360" height="75"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <bool key="isElement" value="YES"/>
+                                                </accessibility>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4kZ-R5-vAr" customClass="CustomView" customModule="HW_lesson10" customModuleProvider="target">
+                                                <rect key="frame" x="25" y="75.000000000000568" width="360" height="75"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <bool key="isElement" value="YES"/>
+                                                </accessibility>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yUF-gm-m3M" customClass="CustomView" customModule="HW_lesson10" customModuleProvider="target">
+                                                <rect key="frame" x="25" y="152.00000000000045" width="360" height="75"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <bool key="isElement" value="YES"/>
+                                                </accessibility>
+                                            </view>
+                                        </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f2G-SU-e9E">
@@ -126,10 +152,13 @@
                         <outlet property="bottomBodyView" destination="8uO-yT-wIP" id="zNK-bX-JVQ"/>
                         <outlet property="bottomLabel" destination="w0L-0r-bio" id="hFb-kb-U6k"/>
                         <outlet property="bottomView" destination="f2G-SU-e9E" id="VVl-hG-edG"/>
+                        <outlet property="customVIew7" destination="yUF-gm-m3M" id="qEI-si-ZIg"/>
                         <outlet property="customView1" destination="9et-rm-Jv3" id="fzv-WL-ewE"/>
                         <outlet property="customView2" destination="jdJ-5f-xp3" id="K2v-4m-y7g"/>
                         <outlet property="customView3" destination="oL2-Vr-UjV" id="fsW-OH-45N"/>
                         <outlet property="customView4" destination="D4K-9p-eaX" id="n2l-ic-eSI"/>
+                        <outlet property="customView5" destination="7x4-sA-q8q" id="flD-cs-NR4"/>
+                        <outlet property="customView6" destination="4kZ-R5-vAr" id="UTl-7c-s2l"/>
                         <outlet property="nameLabel" destination="CO9-dw-KIx" id="AFa-9L-Rjm"/>
                         <outlet property="tapBottomView" destination="1oA-bm-WJW" id="kss-o3-MU4"/>
                         <outlet property="titleLabel" destination="mEm-Hu-kTi" id="Hcd-fc-S8a"/>
@@ -142,6 +171,74 @@
                 <tapGestureRecognizer id="eWJ-1h-J1w" userLabel="Tap Bottom View Recognizer"/>
             </objects>
             <point key="canvasLocation" x="52.671755725190835" y="4.9295774647887329"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="v8B-jx-hix">
+            <objects>
+                <viewController id="P44-Kx-U2y" customClass="ViewController" customModule="HW_lesson10" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5pK-PM-pXB">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XeE-QX-vwB">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="229"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="user" translatesAutoresizingMaskIntoConstraints="NO" id="dIL-Db-na5">
+                                        <rect key="frame" x="131" y="67" width="130" height="130"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="n14-ax-9Mo">
+                                <rect key="frame" x="0.0" y="228" width="393" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ifv-eR-L0e">
+                                        <rect key="frame" x="44" y="58" width="306" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="83T-Eu-5rE">
+                                        <rect key="frame" x="27" y="15" width="147" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DIg-xp-Fs5">
+                                <rect key="frame" x="0.0" y="344" width="393" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6W1-2K-BjV">
+                                <rect key="frame" x="0.0" y="464" width="393" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f6H-tt-AHG">
+                                <rect key="frame" x="0.0" y="582" width="393" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="twJ-W6-GzE">
+                                <rect key="frame" x="0.0" y="702" width="393" height="150"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="XbQ-DU-DFz"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cxH-wE-sl7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="851.14503816793888" y="4.9295774647887329"/>
         </scene>
     </scenes>
     <resources>

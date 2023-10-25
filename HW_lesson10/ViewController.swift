@@ -25,6 +25,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var customView3: CustomView!
     @IBOutlet weak var customView4: CustomView!
     
+    @IBOutlet weak var customView5: CustomView!
+    @IBOutlet weak var customView6: CustomView!
+    @IBOutlet weak var customVIew7: CustomView!
+    
+    
     //bottom
     @IBOutlet weak var bottomView: UIView!
     
@@ -48,7 +53,23 @@ class ViewController: UIViewController {
         tapBottomView.layer.cornerRadius = 15
     }
     private func setupCustomView() {
-        customView1.contenLabel.text = "hello world"
+        customView1.contenLabel.text = "Personal Data"
+        customView2.contenLabel.text = "Settings"
+        customView2.customViewImage.image = UIImage(named: "setting")
+        customView3.contenLabel.text = "E-Statement"
+        customView3.customViewImage.image = UIImage(named: "doc")
+        customView4.contenLabel.text = "Refferal Code"
+        customView4.customViewImage.image = UIImage(named: "heart")
+        
+        customView5.contenLabel.text = "FAQs"
+        customView5.customViewImage.image = UIImage(named: "more")
+        customView6.contenLabel.text = "E-Statement"
+        customView6.customViewImage.image = UIImage(named: "pencil")
+        customVIew7.contenLabel.text = "Community"
+        customVIew7.customViewImage.image = UIImage(systemName: "person.3.fill")
+        
+        
+        
     }
     func setupUserImageView() {
         userImageView.image = UIImage(named: "user")
